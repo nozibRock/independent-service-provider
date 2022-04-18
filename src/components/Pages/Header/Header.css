@@ -1,0 +1,10 @@
+.nav-link {
+    font-size: 20px !important;
+    border: 2px solid rgb(33, 37, 41);
+    padding: 3px 15px !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: overline;
+}
