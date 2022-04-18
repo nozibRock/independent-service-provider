@@ -1,0 +1,62 @@
+[
+    {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "category": "Premium",
+    "name": "Agra",
+    "price": 2200,
+    "description": "Agra is best known for the Taj Mahal (17th century), designated a UNESCO World Heritage site in 1983. A complex mausoleum, the Taj Mahal is often considered toAgra is best known for the Taj Mahal (17th century).................. ",
+    "ratings": 4,
+    "img": "images/p-1.jpg",
+    "quantity": "3 days & 3 nights"
+  },
+
+    {"id": "124e13b9-2d54-4b2f-a74d-a55b362d6klu",
+    "category": "Premium",
+    "name": "Switzerland",
+    "price": 3200,
+    "description": "Switzerland is a mountainous Central European country, home to numerous lakes, villages and the high peaks of the Alps. Its cities contain medieval quarters, with landmarks like capital Bern’s Zytglogge.........",
+    "ratings": 4,
+    "img": "images/p-2.jpg",
+    "quantity": "12 days, 11 nights"
+  },
+
+    {"id": "124e13b9-2d54-4b2f-a74d-a56b362d6epq",
+    "category": "Premium",
+    "name": "USA",
+    "price": 4200,
+    "description": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural...............",
+    "ratings": 4,
+    "img": "images/p-3.jpg",
+    "quantity": "6 days & 6 nights"
+  },
+
+    {"id": "124e13b9-2d54-4b2f-a74d-a77b362d6lkd",
+    "category": "Premium",
+    "name": "Paris",
+    "price": 9200,
+    "description": "The Eiffel Tower—or as the French call it, La Tour Eiffel—is one of the world's most recognizable landmarks. The tower was designed as the centerpiece of the 1889 World's Fair in Paris and was meant to commemorate........",
+    "ratings": 4,
+    "img":  "images/p-4.jpg",
+    "quantity": "4 days & 3 nights"
+  },
+
+    {"id": "124e13b9-2d54-4b2f-a74d-a77b362d6pod",
+    "category": "Premium",
+    "name": "Nepal",
+    "price": 4200,
+    "description": "Nepal, officially the Federal Democratic Republic of Nepal, is a landlocked country in South Asia. It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain, bordering ... ",
+    "ratings": 4,
+    "img":"images/p-5.jpg",
+    "quantity": "8 days & 6 nights"
+  },
+
+    {"id": "124e13b9-2d54-4b2f-a74d-a77b362d6say",
+    "category": "Premium",
+    "name": "Egypt",
+    "price": 4900,
+    "description": "A pyramid is a structure whose outer surfaces are triangular and converge to a single step at the top, making the shape roughly a pyramid in the geometric sense. The base of a pyramid can be trilateral...... ",
+    "ratings": 4,
+    "img":"images/p-6.jpg",
+    "quantity": "2 days & 3 nights"
+  }
+]

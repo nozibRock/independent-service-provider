@@ -96,7 +96,7 @@ const Login = () => {
               </button>
             </form>
             <h6 className="text-center">
-              Don't have an account? <Link to="/signup">Sign Up</Link>
+              Don't have an account? <Link to="/register">Sign Up</Link>
             </h6>
           </Col>
         </Row>

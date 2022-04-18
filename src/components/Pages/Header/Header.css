@@ -14,11 +14,11 @@
     font-size: 18px;
     padding: 4px 15px;
     border: 1px solid #fff;
-    color: white;
-    background-color: black;
+    color: black !important;
+    background-color: white;
 }
 
 .nav-login-btn:hover {
-    color: #fff;
+    color: #fff  !important;
     background-color: black;
 }
