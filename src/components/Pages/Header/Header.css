@@ -8,3 +8,17 @@
 .nav-link:hover {
     text-decoration: overline;
 }
+
+.nav-login-btn {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 15px;
+    border: 1px solid #fff;
+    color: white;
+    background-color: black;
+}
+
+.nav-login-btn:hover {
+    color: #fff;
+    background-color: black;
+}

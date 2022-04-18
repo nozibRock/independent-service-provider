@@ -45,25 +45,39 @@ const Register = () => {
   return (
     <Container fluid className=" mt-5">
       <Row>
-        <Col md={12} lg={6} className="mt-5 mt-lg-5 p-3 p-lg-5 bg-light mx-auto">
-            <div className="d-flex align-items-center justify-content-end">
-                <h2 className="fw-bold ms-lg-4">Sign Up</h2>
-            </div>
-          
-          <form onSubmit={handleCreateUser}>
-            <div className="input_group">
-              <label htmlFor="email">Email</label>
+        <Col
+          md={12}
+          lg={6}
+          className="mt-5 mt-lg-5 p-3 p-lg-5 bg-light mx-auto"
+        >
+          <div className="d-flex align-items-center justify-content-center">
+            <h2 className="fw-bold ms-lg-4">Sign Up</h2>
+          </div>
+          <h6 className="mb-5 ms-lg-4">
+            Sign up and get one time free service.
+          </h6>
+          {/* Sign Up With Email Form */}
+          <form onSubmit={handleCreateUser} className="mt-3 mt-lg-4">
+            <div>
+              <label htmlFor="email" className="fw-bold">
+                Email
+              </label>
               <input
+                placeholder="example@email.com"
                 onBlur={handleEmailBlur}
                 type="email"
                 name="email"
                 id=""
                 required
+                className="input-field"
               />
             </div>
-            <div className="input_group">
-              <label htmlFor="password">Password</label>
+            <div>
+              <label htmlFor="password" className="fw-bold">
+                Password
+              </label>
               <input
+                className="input-field"
                 onBlur={handlePasswordBlur}
                 type="password"
                 name="password"
@@ -71,9 +85,12 @@ const Register = () => {
                 required
               />
             </div>
-            <div className="input_group">
-              <label htmlFor="password">Confirm Password</label>
+            <div>
+              <label htmlFor="password" className="fw-bold">
+                Confirm Password
+              </label>
               <input
+                className="input-field"
                 onBlur={handleConfirmPasswordBlur}
                 type="password"
                 name="password"
@@ -83,7 +100,11 @@ const Register = () => {
             </div>
             <p style={{ color: "red" }}>{error}</p>
             <div>
-              <input className="form_submit" type="submit" value="Sign up" />
+              <input
+                className="btn-signInMethod signup-submit"
+                type="submit"
+                value="Sign up"
+              />
             </div>
           </form>
           <div className="form_text">
@@ -100,7 +121,7 @@ const Register = () => {
             <div className="divider_line"></div>
           </div>
           <div>
-            <button className="form_submit_google">
+            <button className="btn-signInMethod fw-bold">
               <FcGoogle></FcGoogle> Continue with Google
             </button>
           </div>

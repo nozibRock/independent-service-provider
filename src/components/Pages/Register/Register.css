@@ -1,0 +1,32 @@
+.btn-signInMethod,
+.input-field {
+    display: block;
+    border: 1px solid #003638;
+    width: 90%;
+    margin: 15px 30px;
+    outline: none;
+    padding: 5px 0px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: white;
+}
+
+.btn-signInMethod:hover {
+    background-color: white;
+    color: #003638;
+}
+
+.input-field {
+    margin-top: 3px;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+.signup-submit {
+    background-color: #003638;
+    color: white;
+    width: auto;
+    margin: 20px auto;
+    padding: 5px 30px;
+}
