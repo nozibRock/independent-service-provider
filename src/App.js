@@ -9,6 +9,8 @@ import Register from "./components/Pages/Register/Register";
 import Login from "./components/Pages/Login/Login";
 import Services from "./components/Pages/Services/Services";
 import RequireAuth from "./Firebase/RequireAuth";
+import CheckOut from "./components/Pages/CheckOut/CheckOut";
+import NotFound from "./components/Pages/NotFound/NotFound";
 
 function App() {
   return (
