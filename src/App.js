@@ -12,7 +12,12 @@ import RequireAuth from "./Firebase/RequireAuth";
 import CheckOut from "./components/Pages/CheckOut/CheckOut";
 import NotFound from "./components/Pages/NotFound/NotFound";
 
+import usePackageData from './hooks/PackageData'
+import About from "./components/Pages/About/About";
+
 function App() {
+
+  const packageData = usePackageData();
   return (
     <div>
       <Header></Header>
@@ -22,6 +27,7 @@ function App() {
         <Route path="/register" element={<Register />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/services" element={<Services />}></Route>
+        <Route path="/about" element={<About />}></Route>
 
         <Route
           path="/checkOut"

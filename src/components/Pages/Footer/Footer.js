@@ -62,7 +62,7 @@ const Footer = () => {
           </Col>
           <Col xs={4} md={2}>
             <h6 className="fw-bold mt-3">ACCOUNT</h6>
-            <Link to="/signup" className="text-white">
+            <Link to="/register" className="text-white">
               Create account
             </Link>{" "}
             <br />

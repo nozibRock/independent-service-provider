@@ -9,7 +9,7 @@ const NotFound = () => {
         <Container className="mt-5 not-found-container">
           <h1 className="error">404</h1>
           <h1>Page Not Found</h1>
-          <NavLink to="/home" className="btn btn-light">
+          <NavLink to="/home" className="btn btn-secondary">
             Go to Home
           </NavLink>
         </Container>
