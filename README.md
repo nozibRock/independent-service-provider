@@ -1,6 +1,6 @@
 # independent-service-provider
 
-This project was designed and developed with REACT by Rijoan Fardous.
+This project was designed and developed with REACT by Md Nozib Ud Dowla.
  [Live Website Link](https://independent-service-prov-d7a3a.web.app/).
 
 This is a website for Drew Binsky.
